@@ -1,0 +1,19 @@
+
+
+<div class="min-h-screen flex flex-col ">
+  <!-- Fixed Header -->
+  <app-header class="fixed top-0 z-50 w-full"></app-header>
+
+  <!-- Page Content Wrapper -->
+  <div class="flex flex-1 pt-20"> <!-- pt-20 to offset fixed header height -->
+    <!-- Sidebar on the left -->
+   
+    
+    <!-- Main Content Area -->
+    <main class="flex-1 p-4">
+      <router-outlet></router-outlet>
+    </main>
+
+  </div>
+  <app-footer class="fixed bottom-0 z-50 w-full"></app-footer>
+</div>
